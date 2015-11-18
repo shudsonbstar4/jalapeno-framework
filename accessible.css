@@ -1,0 +1,14 @@
+/* This CSS file puts back basic accessibility. Some examples:
+	-- Replaces underlines on links
+	-- Increases contrast of font and foreground colors
+	-- Bumps up font-size
+ */
+
+html, body {
+	font-size:20px;
+	color:#000000;
+}
+
+a, a:hover, a:visited, a:active {
+	text-decoration: underline;
+}
